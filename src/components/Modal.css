@@ -1,0 +1,62 @@
+.modal-form{
+    display: flex;
+    width: 25vw;
+    height: 45vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.head> button{
+    margin-left: 22vw;
+    border: none;
+    margin-top: 20px;
+    height: 40px;
+    width: 40px;
+    background-color: #1DB954;
+    color: white;
+    font-size: large;
+    border-radius:20px;
+}
+.Modal{
+    background-color: black;
+    color: white;
+    width: 25vw;
+    height: 50vh;
+    border-radius: 10px;
+}
+
+form>input{
+    width: 70%;
+}
+form>input:active{
+    transform: scale(1.1);
+}
+.modal-background{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+form>input{
+    color: white;
+    margin-bottom: 20px;
+    height: 30px;
+    background-color: #272727;
+    border-radius: 10px;
+    border: none;
+    padding-left: 10px;
+    outline: none;
+}
+form>button{
+    margin-top: 20px;
+}
+.modal-form>button{
+    border: none;
+    width: 100px;
+    height: 40px;
+    background-color: 	#1DB954;
+    color: whitesmoke;
+}
